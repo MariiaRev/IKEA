@@ -898,7 +898,9 @@ select {
 	.goods-list {
 		grid-template-columns: repeat(3, 1fr);
 	}
+}
 
+@media (min-width: 769px) {
 	.subcatalog {
 		-webkit-transition: left 0.5s 0s;
 		-o-transition: left 0.5s 0s;
